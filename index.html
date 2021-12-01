@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwiter project</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<form action="action_page.php" method="post">
+	<div class="imgcontainer">
+	  <img src="download.jpg" alt="Avatar" class="avatar">
+	</div>
+  
+	<div class="container">
+	  <label for="uname"><b>Username</b></label>
+	  <input type="text" placeholder="Enter Username" name="uname" required>
+  <br>
+	  <label for="psw"><b>Password</b></label>
+	  <br>
+	  <input type="password" placeholder="Enter Password" name="psw" required>
+  <br>
+	  <button type="submit">Login</button>
+	  <br>
+	  <label>
+		<input type="checkbox" checked="checked" name="remember"> Remember me
+		<br>
+	  </label>
+	</div>
+  <br><br>
+  <input type="text" class="input" id="room" placeholder="Please enter your room name here">
+  <br><br>
+  <button class="add" onclick="Addroom()">Add Room</button>
+  <br><br>
+	<div class="container" style="background-color:#f1f1f1">
+	  <button type="button" class="cancelbtn">Cancel</button>
+	  <br><br>
+	  <span class="psw">Forgot <a href="#">password?</a></span>
+	  <br><br>
+	</div>
+  </form>
+<link rel="stylesheet" type="text/css" href="kwitter.css">
+<link rel="stylesheet" href="kwiter_room.html">
+<script src="kwitter.js"></script>
+
+</head>
+<body>
+	
+<div>
+</div>
+<button id="login_button" class="btn btn-info" onclick="login_button()">Log in</button>
+<br>
+<br>
+</div>
+</center>
+</body>
+</html>
